@@ -43,18 +43,21 @@ namespace Joos.Api.Controllers
         private readonly UserManager _userManager;
         private readonly RoleManager _roleManager;
         private IFacebookService _facebookService;
+        private IGoogleService _googleService;
 
         static AccountController()
         {
             OAuthBearerOptions = new OAuthBearerAuthenticationOptions();
         }
 
-        public AccountController(RoleManager roleManager,
+        public AccountController(GoogleService googleService,
+            RoleManager roleManager,
             UserManager userManager,
             IFacebookService facebookService,
             IUnitOfWorkManager unitOfWorkManager,
             TenantManager tenantManager)
         {
+            _googleService = googleService;
             _roleManager = roleManager;
             _userManager = userManager;
             _facebookService = facebookService;
@@ -141,12 +144,14 @@ namespace Joos.Api.Controllers
         #region External Login
 
         [HttpPost]
-        public async Task<AjaxResponse> ExternalLogin(string provider, string accessToken, string tenancyName = "")
+        public async Task<AjaxResponse> ExternalLogin(string provider, string accessToken, string id = "", string tenancyName = "")
         {
             switch (provider)
             {
                 case "Facebook":
                     return await facebookLogin(provider, accessToken, tenancyName);
+                case "Google":
+                    return await googleLogin(provider, accessToken, id, tenancyName);
                 default:
                     break;
             }
@@ -229,6 +234,112 @@ namespace Joos.Api.Controllers
                                     }
                                 };
                         user.UserName = uf.email;
+                        user.Password = new PasswordHasher().HashPassword(uf.id);
+
+                        //Switch to the tenant
+                        //_unitOfWorkManager.Current.EnableFilter(AbpDataFilters.MayHaveTenant);
+                        //_unitOfWorkManager.Current.SetFilterParameter(AbpDataFilters.MayHaveTenant, AbpDataFilters.Parameters.TenantId, tenantId);
+
+                        //Add default roles
+                        //user.Roles = new List<UserRole>();
+                        //foreach (var defaultRole in _roleManager.Roles.Where(r => r.IsDefault).ToList())
+                        //{
+                        //    user.Roles.Add(new UserRole { RoleId = defaultRole.Id });
+                        //}
+
+                        //Save user
+                        CheckErrors(await _userManager.CreateAsync(user));
+                        //await _unitOfWorkManager.Current.SaveChangesAsync();
+
+                        // Generataing token
+                        loginResult = await _userManager.LoginAsync(loginInfo.Login, tenancyName);
+                        ticket = new AuthenticationTicket(loginResult.Identity, new AuthenticationProperties());
+
+                        currentUtc = new SystemClock().UtcNow;
+                        ticket.Properties.IssuedUtc = currentUtc;
+                        ticket.Properties.ExpiresUtc = currentUtc.Add(TimeSpan.FromMinutes(30));
+
+                        myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
+
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+                    default:
+                        throw CreateExceptionForFailedLoginAttempt(loginResult.Result, loginInfo.Email ?? loginInfo.DefaultUserName, tenancyName);
+                }
+
+            }
+            else
+            {
+                throw new UserFriendlyException(L("LoginFailed"), L("Facebook Login Failed"));
+            }
+        }
+
+        protected async Task<AjaxResponse> googleLogin(string provider, string accessToken, string id = "", string tenancyName = "")
+        {
+            var uf = await _googleService.getUserProfile(accessToken, id);
+            if (uf != null && uf.error == null)
+            {
+                var loginInfo = new ExternalLoginInfo
+                {
+                    DefaultUserName = uf.emails[0].value,
+                    Email = uf.emails[0].value,
+                    Login = new UserLoginInfo("Google", uf.id)
+                };
+
+                var tenantId = 0;
+                // Search for user in DB
+                if (string.IsNullOrWhiteSpace(tenancyName))
+                {
+                    var tenants = await FindPossibleTenantsOfUserAsync(loginInfo.Login);
+                    switch (tenants.Count)
+                    {
+                        case 0:
+                            //register
+                            break;
+                        case 1:
+                            tenancyName = tenants[0].TenancyName;
+                            tenantId = tenants[0].Id;
+                            break;
+                        default:
+                            tenancyName = tenants[0].TenancyName;
+                            tenantId = tenants[0].Id;
+                            break;
+                    }
+                }
+
+                var loginResult = await _userManager.LoginAsync(loginInfo.Login, tenancyName);
+
+                switch (loginResult.Result)
+                {
+                    case AbpLoginResultType.Success:
+                        var ticket = new AuthenticationTicket(loginResult.Identity, new AuthenticationProperties());
+
+                        var currentUtc = new SystemClock().UtcNow;
+                        ticket.Properties.IssuedUtc = currentUtc;
+                        ticket.Properties.ExpiresUtc = currentUtc.Add(TimeSpan.FromMinutes(30));
+
+                        var myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
+
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+
+                    case AbpLoginResultType.UnknownExternalLogin:
+                        //register
+                        var user = new User
+                        {
+                            Name = uf.displayName,
+                            Surname = uf.name.familyName,
+                            EmailAddress = uf.emails[0].value,
+                            IsActive = true
+                        };
+
+                        user.Logins = new List<UserLogin>
+                                {
+                                    new UserLogin
+                                    {
+                                        LoginProvider = "Google",
+                                        ProviderKey = uf.id
+                                    }
+                                };
+                        user.UserName = uf.emails[0].value;
                         user.Password = new PasswordHasher().HashPassword(uf.id);
 
                         //Switch to the tenant

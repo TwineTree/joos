@@ -98,7 +98,10 @@
     <Compile Include="ExternalServices\ExternalServiceHelpers.cs" />
     <Compile Include="ExternalServices\FacebookService.cs" />
     <Compile Include="ExternalServices\FacebookUserProfile.cs" />
+    <Compile Include="ExternalServices\GoogleService.cs" />
+    <Compile Include="ExternalServices\GoogleUserProfile.cs" />
     <Compile Include="ExternalServices\IFacebookService.cs" />
+    <Compile Include="ExternalServices\IGoogleService.cs" />
     <Compile Include="JoosApplicationModule.cs" />
     <Compile Include="JoosAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
