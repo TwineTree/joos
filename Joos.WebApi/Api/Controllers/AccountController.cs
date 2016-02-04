@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Abp.Authorization.Users;
@@ -15,9 +16,12 @@ using Microsoft.Owin.Security.OAuth;
 using System.Collections.Generic;
 using Abp.Domain.Uow;
 using System.Net.Http;
-using Joos.Api.Controllers.Results;
-using System.Net;
 using Microsoft.AspNet.Identity;
+using Joos.ExternalServices;
+using System.Linq;
+using Abp.Threading;
+using Microsoft.AspNet.Identity.Owin;
+using Abp.IdentityFramework;
 
 namespace Joos.Api.Controllers
 {
@@ -34,16 +38,28 @@ namespace Joos.Api.Controllers
 
         public static OAuthBearerAuthenticationOptions OAuthBearerOptions { get; private set; }
 
+        private readonly TenantManager _tenantManager;
+        private readonly IUnitOfWorkManager _unitOfWorkManager;
         private readonly UserManager _userManager;
+        private readonly RoleManager _roleManager;
+        private IFacebookService _facebookService;
 
         static AccountController()
         {
             OAuthBearerOptions = new OAuthBearerAuthenticationOptions();
         }
 
-        public AccountController(UserManager userManager)
+        public AccountController(RoleManager roleManager,
+            UserManager userManager,
+            IFacebookService facebookService,
+            IUnitOfWorkManager unitOfWorkManager,
+            TenantManager tenantManager)
         {
+            _roleManager = roleManager;
             _userManager = userManager;
+            _facebookService = facebookService;
+            _unitOfWorkManager = unitOfWorkManager;
+            _tenantManager = tenantManager;
         }
 
         //Phone number
@@ -107,39 +123,150 @@ namespace Joos.Api.Controllers
             }
         }
 
+        [UnitOfWork]
+        protected virtual async Task<List<Tenant>> FindPossibleTenantsOfUserAsync(UserLoginInfo login)
+        {
+            List<User> allUsers;
+            using (_unitOfWorkManager.Current.DisableFilter(AbpDataFilters.MayHaveTenant))
+            {
+                allUsers = await _userManager.FindAllAsync(login);
+            }
+
+            return allUsers
+                .Where(u => u.TenantId != null)
+                .Select(u => AsyncHelper.RunSync(() => _tenantManager.FindByIdAsync(u.TenantId.Value)))
+                .ToList();
+        }
+
         #region External Login
 
         [HttpPost]
-        public AjaxResponse ExternalLogin(string provider, string accessToken)
+        public async Task<AjaxResponse> ExternalLogin(string provider, string accessToken, string tenancyName = "")
         {
             switch (provider)
             {
                 case "Facebook":
-
+                    return await facebookLogin(provider, accessToken, tenancyName);
+                default:
                     break;
             }
 
             return new AjaxResponse(true);
         }
 
-        [UnitOfWork]
-        public virtual string ExternalLoginCallback(string returnUrl, string tenancyName = "")
-        {
-            var loginInfo = "";
-            if (loginInfo == null)
-            {
-                // TODO: CHANGE PATH
-                return "{status: 0}";
-            }
+        #endregion
 
-            //Try to find tenancy name
-            if (tenancyName != null && tenancyName.Trim() != "")
-            {
-                // Find users
-            }
-            return "{status: 1}";
+        #region Helpers
+        protected void CheckErrors(IdentityResult identityResult)
+        {
+            identityResult.CheckErrors(LocalizationManager);
         }
 
+        protected async Task<AjaxResponse> facebookLogin(string provider, string accessToken, string tenancyName = "")
+        {
+            var uf = await _facebookService.GetUserProfile(accessToken);
+            if (uf != null && uf.error == null)
+            {
+                var loginInfo = new ExternalLoginInfo
+                {
+                    DefaultUserName = uf.email,
+                    Email = uf.email,
+                    Login = new UserLoginInfo("Facebook", uf.id)
+                };
+
+                var tenantId = 0;
+                // Search for user in DB
+                if (string.IsNullOrWhiteSpace(tenancyName))
+                {
+                    var tenants = await FindPossibleTenantsOfUserAsync(loginInfo.Login);
+                    switch (tenants.Count)
+                    {
+                        case 0:
+                            //register
+                            break;
+                        case 1:
+                            tenancyName = tenants[0].TenancyName;
+                            tenantId = tenants[0].Id;
+                            break;
+                        default:
+                            tenancyName = tenants[0].TenancyName;
+                            tenantId = tenants[0].Id;
+                            break;
+                    }
+                }
+
+                var loginResult = await _userManager.LoginAsync(loginInfo.Login, tenancyName);
+
+                switch (loginResult.Result)
+                {
+                    case AbpLoginResultType.Success:
+                        var ticket = new AuthenticationTicket(loginResult.Identity, new AuthenticationProperties());
+
+                        var currentUtc = new SystemClock().UtcNow;
+                        ticket.Properties.IssuedUtc = currentUtc;
+                        ticket.Properties.ExpiresUtc = currentUtc.Add(TimeSpan.FromMinutes(30));
+
+                        var myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
+
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+
+                    case AbpLoginResultType.UnknownExternalLogin:
+                        //register
+                        var user = new User
+                        {
+                            Name = uf.name,
+                            Surname = uf.last_name,
+                            EmailAddress = uf.email,
+                            IsActive = true
+                        };
+
+                        user.Logins = new List<UserLogin>
+                                {
+                                    new UserLogin
+                                    {
+                                        LoginProvider = "Facebook",
+                                        ProviderKey = uf.id
+                                    }
+                                };
+                        user.UserName = uf.email;
+                        user.Password = new PasswordHasher().HashPassword(uf.id);
+
+                        //Switch to the tenant
+                        //_unitOfWorkManager.Current.EnableFilter(AbpDataFilters.MayHaveTenant);
+                        //_unitOfWorkManager.Current.SetFilterParameter(AbpDataFilters.MayHaveTenant, AbpDataFilters.Parameters.TenantId, tenantId);
+
+                        //Add default roles
+                        //user.Roles = new List<UserRole>();
+                        //foreach (var defaultRole in _roleManager.Roles.Where(r => r.IsDefault).ToList())
+                        //{
+                        //    user.Roles.Add(new UserRole { RoleId = defaultRole.Id });
+                        //}
+
+                        //Save user
+                        CheckErrors(await _userManager.CreateAsync(user));
+                        //await _unitOfWorkManager.Current.SaveChangesAsync();
+
+                        // Generataing token
+                        loginResult = await _userManager.LoginAsync(loginInfo.Login, tenancyName);
+                        ticket = new AuthenticationTicket(loginResult.Identity, new AuthenticationProperties());
+
+                        currentUtc = new SystemClock().UtcNow;
+                        ticket.Properties.IssuedUtc = currentUtc;
+                        ticket.Properties.ExpiresUtc = currentUtc.Add(TimeSpan.FromMinutes(30));
+
+                        myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
+
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+                    default:
+                        throw CreateExceptionForFailedLoginAttempt(loginResult.Result, loginInfo.Email ?? loginInfo.DefaultUserName, tenancyName);
+                }
+
+            }
+            else
+            {
+                throw new UserFriendlyException(L("LoginFailed"), L("Facebook Login Failed"));
+            }
+        }
         #endregion
     }
 }

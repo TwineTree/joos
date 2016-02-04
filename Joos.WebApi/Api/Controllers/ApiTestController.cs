@@ -8,6 +8,7 @@ using Joos.Users;
 using System.Threading.Tasks;
 using System.Threading;
 using Abp.Runtime.Session;
+using Joos.ExternalServices;
 
 namespace Joos.Api.Controllers
 {
@@ -15,21 +16,25 @@ namespace Joos.Api.Controllers
     public class ApiTestController : AbpApiController
     {
         private IAbpSession _abpSession;
+        private IFacebookService _facebookService;
         private IUserAppService _userAppService;
 
-        public ApiTestController(IUserAppService userAppService,
+        public ApiTestController(
+            IFacebookService facebookService,
+            IUserAppService userAppService,
             IAbpSession abpSession)
         {
             _userAppService = userAppService;
             _abpSession = abpSession;
+            _facebookService = facebookService;
         }
 
         // /api/apitest/test
         [HttpPost]
         public async Task<AjaxResponse> Test()
         {
-            await _userAppService.TestTask(_abpSession.GetUserId());
-            return new AjaxResponse(new { hello = "world" });
+            var uf = await _facebookService.GetUserProfile("CAAGXzBr94ZA4BAGhYitOQEsRQiiIf0tkVWY477pRbmNeXnKyQUDZCk9KbrijkoKjCUFJLKEOsIlHUrvqURjt1LZAewYojCWFTZA50SsUHsFfLJqBJCyrCYh13euxGJbt285jHRvIjQEl4WN5UkGvGNobWKe0nMMt4NQGDITkaxHz807ai636ajVv7d3TOd7URLz83zZALvwuVGdYoSjgF");
+            return new AjaxResponse(uf);
         }
 
     }
