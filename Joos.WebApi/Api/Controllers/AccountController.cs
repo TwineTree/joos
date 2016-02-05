@@ -319,7 +319,7 @@ namespace Joos.Api.Controllers
 
                         var myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
 
-                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken, UserID =  loginResult.User.Id });
 
                     case AbpLoginResultType.UnknownExternalLogin:
                         //register
@@ -367,7 +367,7 @@ namespace Joos.Api.Controllers
 
                         myAccessToken = OAuthBearerOptions.AccessTokenFormat.Protect(ticket);
 
-                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken });
+                        return new AjaxResponse(new { UserProfile = uf, MyAccessToken = myAccessToken, UserID = loginResult.User.Id });
                     default:
                         throw CreateExceptionForFailedLoginAttempt(loginResult.Result, loginInfo.Email ?? loginInfo.DefaultUserName, tenancyName);
                 }
