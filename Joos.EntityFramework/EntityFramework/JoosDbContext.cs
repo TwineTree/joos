@@ -3,12 +3,15 @@ using Abp.Zero.EntityFramework;
 using Joos.Authorization.Roles;
 using Joos.MultiTenancy;
 using Joos.Users;
+using Joos.JoosCore;
+using System.Data.Entity;
 
 namespace Joos.EntityFramework
 {
     public class JoosDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for your Entities...
+        public virtual IDbSet<Question> Question { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

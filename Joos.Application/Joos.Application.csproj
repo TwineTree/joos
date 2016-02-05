@@ -104,6 +104,9 @@
     <Compile Include="ExternalServices\IGoogleService.cs" />
     <Compile Include="JoosApplicationModule.cs" />
     <Compile Include="JoosAppServiceBase.cs" />
+    <Compile Include="JoosApp\QuestionService.cs" />
+    <Compile Include="JoosApp\Dto\QuestionsInput.cs" />
+    <Compile Include="JoosApp\IQuestionService.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
     <Compile Include="MultiTenancy\ITenantAppService.cs" />
     <Compile Include="MultiTenancy\Dto\TenantListDto.cs" />

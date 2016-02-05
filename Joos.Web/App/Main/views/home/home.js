@@ -6,7 +6,7 @@
             vm.userName = 'rishabh';
             vm.func = function () {
                 abp.ajax({
-                    url: '/api/apitest/test'
+                    url: '/api/questions/Add'
                 }).done(function (data) {
                     abp.notify.success('juice');
                 });

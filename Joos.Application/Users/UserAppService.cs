@@ -30,13 +30,11 @@ namespace Joos.Users
             CheckErrors(await _userManager.RemoveFromRoleAsync(userId, roleName));
         }
 
-        public async Task TestTask(long userId)
+        public virtual Task<User> GetUserByIdAsync(long userId)
         {
-            var user = await _userManager.GetUserByIdAsync(userId);
-
-            user.Name = user.Name + "Edit";
-
-            await _userManager.UpdateAsync(user);
+            var user = UserManager.FindByIdAsync(userId);
+            
+            return user;
         }
     }
 }

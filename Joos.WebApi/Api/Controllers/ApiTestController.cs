@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Threading;
 using Abp.Runtime.Session;
 using Joos.ExternalServices;
+using Joos.JoosApp;
+using Joos.Api.Models;
+using Joos.JoosApp.Dto;
 
 namespace Joos.Api.Controllers
 {
@@ -18,12 +21,15 @@ namespace Joos.Api.Controllers
         private IAbpSession _abpSession;
         private IFacebookService _facebookService;
         private IUserAppService _userAppService;
+        private readonly UserManager _userManager;
 
         public ApiTestController(
+            UserManager userManager,
             IFacebookService facebookService,
             IUserAppService userAppService,
             IAbpSession abpSession)
         {
+            _userManager = userManager;
             _userAppService = userAppService;
             _abpSession = abpSession;
             _facebookService = facebookService;
@@ -33,9 +39,18 @@ namespace Joos.Api.Controllers
         [HttpPost]
         public async Task<AjaxResponse> Test()
         {
-            var uf = await _facebookService.GetUserProfile("CAAGXzBr94ZA4BAGhYitOQEsRQiiIf0tkVWY477pRbmNeXnKyQUDZCk9KbrijkoKjCUFJLKEOsIlHUrvqURjt1LZAewYojCWFTZA50SsUHsFfLJqBJCyrCYh13euxGJbt285jHRvIjQEl4WN5UkGvGNobWKe0nMMt4NQGDITkaxHz807ai636ajVv7d3TOd7URLz83zZALvwuVGdYoSjgF");
-            return new AjaxResponse(uf);
-        }
+            //var input = new QuestionsInput();
+            //var questions = input.Questions;
+            //questions.Question = "How you doing?";
+            //questions.PositiveValue = "Good";
+            //questions.NegativeValue = "Not Good";
+            //questions.ImageUrl = "l";
+            //questions.VideoUrl = "l";
 
+            var user = await _userAppService.GetUserByIdAsync(10);
+            //questions.User = user;
+
+            return new AjaxResponse(user);
+        }
     }
 }

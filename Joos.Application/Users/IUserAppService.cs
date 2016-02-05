@@ -10,6 +10,6 @@ namespace Joos.Users
 
         Task RemoveFromRole(long userId, string roleName);
 
-        Task TestTask(long userId);
+        Task<User> GetUserByIdAsync(long userId);
     }
 }
