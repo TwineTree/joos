@@ -145,6 +145,14 @@
     <Compile Include="Migrations\201602051611269_Joos_1_0_0.Designer.cs">
       <DependentUpon>201602051611269_Joos_1_0_0.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602061107449_Joos_1_0_1.cs" />
+    <Compile Include="Migrations\201602061107449_Joos_1_0_1.Designer.cs">
+      <DependentUpon>201602061107449_Joos_1_0_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602061152041_Joos_1_0_2.cs" />
+    <Compile Include="Migrations\201602061152041_Joos_1_0_2.Designer.cs">
+      <DependentUpon>201602061152041_Joos_1_0_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="JoosDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsBuilder.cs" />
@@ -190,6 +198,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602051611269_Joos_1_0_0.resx">
       <DependentUpon>201602051611269_Joos_1_0_0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602061107449_Joos_1_0_1.resx">
+      <DependentUpon>201602061107449_Joos_1_0_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602061152041_Joos_1_0_2.resx">
+      <DependentUpon>201602061152041_Joos_1_0_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

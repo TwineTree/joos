@@ -13484,3 +13484,123 @@ DEBUG 2016-02-06 15:22:02,849 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2016-02-06 15:22:02,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
 DEBUG 2016-02-06 15:22:02,857 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
 DEBUG 2016-02-06 15:22:02,861 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 17:05:47,869 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 17:05:55,449 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 17:05:55,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:05:55,481 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 17:05:55,555 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:05:55,555 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:05:55,555 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:05:55,555 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:06:05,817 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 17:06:05,845 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 17:06:05,846 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 17:06:05,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 17:06:05,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 17:06:12,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-06 17:06:12,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 17:06:12,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 17:06:12,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 17:06:12,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-06 17:06:12,800 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 17:06:12,806 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 17:06:12,884 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 17:06:12,886 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 17:06:12,888 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 17:06:12,890 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 17:06:12,892 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-06 17:06:12,893 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 17:06:12,895 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 17:06:12,897 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 17:14:13,782 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 17:14:20,684 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 17:14:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:14:20,705 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 17:14:20,764 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:14:20,765 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:14:20,765 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:14:20,765 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:14:31,336 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 17:14:31,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 17:14:31,360 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 17:14:31,363 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 17:14:31,367 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 17:14:36,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-06 17:14:36,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 17:14:37,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 17:14:37,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 17:14:37,191 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-06 17:14:37,199 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 17:14:37,205 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 17:14:37,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 17:14:37,317 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 17:14:37,319 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 17:14:37,322 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 17:14:37,324 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-06 17:14:37,326 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 17:14:37,329 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 17:14:37,332 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 17:30:52,036 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 17:30:59,017 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 17:30:59,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 17:30:59,042 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 17:30:59,158 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:30:59,158 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:30:59,158 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:30:59,158 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 17:31:09,467 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 17:31:09,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 17:31:09,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 17:31:09,505 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 17:31:09,509 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 17:31:16,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-06 17:31:16,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 17:31:17,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 17:31:17,219 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 17:31:17,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-06 17:31:17,235 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 17:31:17,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 17:31:17,392 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 17:31:17,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 17:31:17,401 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 17:31:17,404 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 17:31:17,408 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-06 17:31:17,413 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 17:31:17,416 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 17:31:17,419 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.

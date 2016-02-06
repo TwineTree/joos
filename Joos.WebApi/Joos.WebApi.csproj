@@ -163,6 +163,8 @@
     <Compile Include="Api\Models\LoginModel.cs" />
     <Compile Include="Api\Models\QuestionModel.cs" />
     <Compile Include="Api\Models\RegisterExternalTokenBindingModel.cs" />
+    <Compile Include="Api\Controllers\VoteController.cs" />
+    <Compile Include="Api\Models\VoteModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

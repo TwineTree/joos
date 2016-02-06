@@ -23,5 +23,8 @@ namespace Joos.JoosCore
         public string ImageUrl { get; set; }
 
         public string VideoUrl { get; set; }
+
+        [ForeignKey("QuestionId")]
+        public virtual ICollection<Vote> Vote { get; set; }
     }
 }

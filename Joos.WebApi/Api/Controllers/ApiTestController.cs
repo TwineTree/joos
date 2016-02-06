@@ -21,14 +21,17 @@ namespace Joos.Api.Controllers
         private IAbpSession _abpSession;
         private IFacebookService _facebookService;
         private IUserAppService _userAppService;
+        private IVoteService _voteService;
         private readonly UserManager _userManager;
 
         public ApiTestController(
+            IVoteService voteService,
             UserManager userManager,
             IFacebookService facebookService,
             IUserAppService userAppService,
             IAbpSession abpSession)
         {
+            _voteService = voteService;
             _userManager = userManager;
             _userAppService = userAppService;
             _abpSession = abpSession;
@@ -51,6 +54,18 @@ namespace Joos.Api.Controllers
             //questions.User = user;
 
             return new AjaxResponse(user);
+        }
+
+        [HttpPost]
+        public AjaxResponse Vote()
+        {
+            var input = new VoteInput()
+            {
+                QuestionId = 1,
+                Value = true
+            };
+            _voteService.Insert(input);
+            return new AjaxResponse(true);
         }
     }
 }

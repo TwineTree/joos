@@ -6,7 +6,7 @@
             vm.userName = 'rishabh';
             vm.func = function () {
                 abp.ajax({
-                    url: '/api/questions/Get',
+                    url: '/api/apitest/vote',
                     method: 'GET'
                 }).done(function (data) {
                     abp.notify.success(JSON.stringify(data));

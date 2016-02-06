@@ -97,6 +97,7 @@
     <Compile Include="Editions\EditionManager.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
     <Compile Include="JoosCore\Question.cs" />
+    <Compile Include="JoosCore\Vote.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
