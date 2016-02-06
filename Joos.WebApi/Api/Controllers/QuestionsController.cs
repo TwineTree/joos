@@ -28,7 +28,7 @@ namespace Joos.Api.Controllers
         [HttpPost]
         public AjaxResponse Add([FromBody]QuestionModel model)
         {
-            var input = new QuestionsInput();
+            var input = new QuestionInput();
             input.QuestionText = model.QuestionText;
             input.PositiveValue = model.PositiveValue;
             input.NegativeValue = model.NegativeValue;

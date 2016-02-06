@@ -24,7 +24,7 @@ namespace Joos.JoosApp
             _questionsRepository = questionsRepository;
         }
 
-        public bool Insert(QuestionsInput question)
+        public bool Insert(QuestionInput question)
         {
             try
             {

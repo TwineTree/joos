@@ -12,6 +12,6 @@ namespace Joos.JoosApp
 {
     public interface IQuestionService : IApplicationService
     {
-        bool Insert(QuestionsInput questions);
+        bool Insert(QuestionInput questions);
     }
 }

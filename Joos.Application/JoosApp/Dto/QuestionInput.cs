@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Joos.JoosApp.Dto
 {
-    public class QuestionsInput : IInputDto
+    public class QuestionInput : IInputDto
     {
         public string QuestionText { get; set; }
 
