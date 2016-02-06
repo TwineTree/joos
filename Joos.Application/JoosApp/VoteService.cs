@@ -12,23 +12,31 @@ namespace Joos.JoosApp
     public class VoteService : IVoteService
     {
         private readonly IRepository<Vote> _voteRepository;
+        private readonly IRepository<Question> _questionRepository;
 
         public VoteService(
+            IRepository<Question> questionRepository,
             IRepository<Vote> voteRepository
             )
         {
+            _questionRepository = questionRepository;
             _voteRepository = voteRepository;
         }
 
-        public bool Insert(VoteInput vote)
+        public async Task<bool> Insert(VoteInput vote)
         {
             try
             {
-                _voteRepository.Insert(new Vote
+                await _voteRepository.InsertAsync(new Vote
                 {
                     QuestionId = vote.QuestionId,
                     Value = vote.Value
                 });
+
+                var query = _questionRepository.GetAll();
+                var question = query.FirstOrDefault(q => q.Id.Equals(vote.QuestionId));
+                var r = (vote.Value == true) ? question.PositiveVotes++ : question.NegativeVotes++;
+                await _questionRepository.UpdateAsync(question);
                 return true;
             }
             catch

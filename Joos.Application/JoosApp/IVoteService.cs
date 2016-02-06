@@ -10,6 +10,6 @@ namespace Joos.JoosApp
 {
     public interface IVoteService : IApplicationService
     {
-        bool Insert(VoteInput vote);
+        Task<bool> Insert(VoteInput vote);
     }
 }

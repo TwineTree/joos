@@ -24,12 +24,12 @@ namespace Joos.Api.Controllers
         }
 
         [HttpPost]
-        public AjaxResponse Add([FromBody]VoteModel model)
+        public async Task<AjaxResponse> Add([FromBody]VoteModel model)
         {
             var vote = new VoteInput();
             vote.QuestionId = model.QuestionId;
             vote.Value = model.Value;
-            var result = _voteService.Insert(vote);
+            var result = await _voteService.Insert(vote);
             return new AjaxResponse(result);
         }
     }

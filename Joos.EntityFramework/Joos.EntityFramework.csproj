@@ -153,6 +153,10 @@
     <Compile Include="Migrations\201602061152041_Joos_1_0_2.Designer.cs">
       <DependentUpon>201602061152041_Joos_1_0_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602061222379_Joos_1_0_3.cs" />
+    <Compile Include="Migrations\201602061222379_Joos_1_0_3.Designer.cs">
+      <DependentUpon>201602061222379_Joos_1_0_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="JoosDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsBuilder.cs" />
@@ -204,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602061152041_Joos_1_0_2.resx">
       <DependentUpon>201602061152041_Joos_1_0_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602061222379_Joos_1_0_3.resx">
+      <DependentUpon>201602061222379_Joos_1_0_3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

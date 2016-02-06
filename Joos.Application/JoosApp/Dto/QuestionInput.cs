@@ -16,5 +16,9 @@ namespace Joos.JoosApp.Dto
         public string ImageUrl { get; set; }
 
         public string VideoUrl { get; set; }
+
+        public int PositiveVotes { get; set; }
+
+        public int NegativeVotes { get; set; }
     }
 }
