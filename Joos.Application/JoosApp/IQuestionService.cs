@@ -13,5 +13,7 @@ namespace Joos.JoosApp
     public interface IQuestionService : IApplicationService
     {
         bool Insert(QuestionInput questions);
+
+        Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageCount);
     }
 }

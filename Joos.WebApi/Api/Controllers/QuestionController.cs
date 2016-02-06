@@ -15,11 +15,11 @@ using System.Web.Http;
 namespace Joos.Api.Controllers
 {
     [AbpApiAuthorize]
-    public class QuestionsController : AbpApiController
+    public class QuestionController : AbpApiController
     {
         private IQuestionService _questionsService;
         
-        public QuestionsController(IQuestionService questionsService)
+        public QuestionController(IQuestionService questionsService)
         {
             _questionsService = questionsService;
         }
@@ -37,6 +37,14 @@ namespace Joos.Api.Controllers
 
             _questionsService.Insert(input);
             return new AjaxResponse(true);
+        }
+
+        // /api/Questions/Get
+        [HttpGet]
+        public async Task<AjaxResponse> Get (int pageIndex = 0, int pageSize = 10)
+        {
+            var result = await _questionsService.GetQuestions(pageIndex, pageSize);
+            return new AjaxResponse(result);
         }
     }
 }

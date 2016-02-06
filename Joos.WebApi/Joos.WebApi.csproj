@@ -154,7 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Controllers\ApiTestController.cs" />
-    <Compile Include="Api\Controllers\QuestionsController.cs" />
+    <Compile Include="Api\Controllers\QuestionController.cs" />
     <Compile Include="Api\Controllers\Results\ApiChallengeResult.cs" />
     <Compile Include="Api\JoosWebApiModule.cs" />
     <Compile Include="Api\Controllers\AccountController.cs" />

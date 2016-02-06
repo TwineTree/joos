@@ -1,14 +1,11 @@
 ﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using Joos.JoosCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Joos.JoosApp.Dto
 {
-    public class QuestionInput : IInputDto
+    [AutoMapFrom(typeof(Question))]
+    public class QuestionInput : EntityDto
     {
         public string QuestionText { get; set; }
 
@@ -19,6 +16,5 @@ namespace Joos.JoosApp.Dto
         public string ImageUrl { get; set; }
 
         public string VideoUrl { get; set; }
-
     }
 }

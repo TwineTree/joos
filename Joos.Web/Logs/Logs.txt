@@ -11843,3 +11843,1644 @@ DEBUG 2016-02-06 00:26:40,656 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2016-02-06 00:26:40,658 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
 DEBUG 2016-02-06 00:26:40,660 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
 DEBUG 2016-02-06 00:26:40,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 12:54:20,364 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 12:54:28,147 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 12:54:28,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 12:54:28,185 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 12:54:28,324 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 12:54:28,324 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 12:54:28,324 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 12:54:28,324 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 12:54:38,675 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 12:54:38,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 12:54:38,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 12:54:38,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 12:54:38,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 12:54:44,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-02-06 12:54:44,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 12:54:44,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 12:54:45,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 12:54:45,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 12:54:45,350 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 12:54:45,364 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 12:54:45,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 12:54:45,384 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 12:54:45,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 12:54:45,400 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 12:54:45,407 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 12:55:50,439 [16   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 12:56:56,469 [17   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:03:02,783 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:03:05,331 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:03:05,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:03:05,348 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:03:05,372 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:03:05,372 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:03:05,372 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:03:05,372 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:03:08,667 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:03:08,674 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:03:08,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:03:08,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:03:08,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:03:10,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:03:10,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:03:10,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:03:10,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:03:10,576 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:03:10,627 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:03:10,629 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:03:10,629 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:03:10,630 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:03:10,631 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:03:10,632 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:03:10,634 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 13:03:44,072 [8    ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 13:04:02,683 [10   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:10:26,021 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:10:30,463 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:10:30,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:10:30,486 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:10:30,522 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:10:30,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:10:30,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:10:30,523 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:10:34,072 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:10:34,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:10:34,082 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:10:34,083 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:10:34,084 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:10:35,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:10:35,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:10:35,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:10:35,897 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:10:35,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:10:35,933 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:10:35,935 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:10:35,936 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:10:35,937 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:10:35,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:10:35,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:10:35,941 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 13:11:19,102 [9    ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:34:54,445 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:35:00,581 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:35:00,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:35:00,614 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:35:00,677 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:35:00,677 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:35:00,677 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:35:00,677 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:35:11,229 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:35:11,241 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:35:11,242 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:35:11,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:35:11,245 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:35:16,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:35:16,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:35:17,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:35:17,734 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:35:17,736 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:35:17,743 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:35:17,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:35:17,902 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:35:17,904 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:35:17,906 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:35:17,908 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:35:17,911 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:35:17,914 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 13:35:47,512 [10   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.QuestionsController.Add(QuestionModel model) in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:37:39,062 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:37:41,709 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:37:41,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:37:41,724 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:37:41,768 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:37:41,768 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:37:41,768 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:37:41,768 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:37:44,332 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:37:44,338 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:37:44,339 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:37:44,339 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:37:44,340 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:37:45,465 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:37:45,465 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:37:45,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:37:45,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:37:45,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:37:45,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:37:45,706 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:37:45,749 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:37:45,749 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:37:45,750 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:37:45,752 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:37:45,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:37:45,754 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 13:37:52,083 [9    ] lers.Filters.AbpExceptionFilterAttribute - System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:38:55,141 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:38:59,076 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:38:59,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:38:59,102 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:38:59,138 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:38:59,138 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:38:59,138 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:38:59,138 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:39:05,805 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:39:05,814 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:39:05,814 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:39:05,815 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:39:05,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:39:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:39:08,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:39:08,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:39:08,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:39:08,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:39:08,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:39:08,757 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:39:08,760 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:39:08,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:39:08,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:39:08,768 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:39:08,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:39:08,771 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 13:39:52,727 [14   ] lers.Filters.AbpExceptionFilterAttribute - System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 13:40:42,722 [10   ] lers.Filters.AbpExceptionFilterAttribute - System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NotSupportedException: The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassc.<GetResultsAsync>b__a()
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.JoosApp.QuestionService.<GetQuestions>d__3.MoveNext() in C:\joos\Joos.Application\JoosApp\QuestionService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__c`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.QuestionsController.<Get>d__3.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\QuestionsController.cs:line 46
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 13:43:37,510 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:43:41,090 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:43:41,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:43:41,106 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:43:41,136 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:43:41,136 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:43:41,136 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:43:41,136 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:43:45,387 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:43:45,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:43:45,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:43:45,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:43:45,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:43:46,980 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:43:46,980 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:43:47,119 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:43:47,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:43:47,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:43:47,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:43:47,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:43:47,190 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:43:47,191 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:43:47,193 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:43:47,194 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:43:47,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:43:47,198 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 13:47:48,466 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:47:51,765 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:47:51,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:47:51,784 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:47:51,836 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:47:51,836 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:47:51,836 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:47:51,836 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:47:56,465 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:47:56,474 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:47:56,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:47:56,476 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:47:56,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:47:58,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:47:58,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:47:59,103 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:47:59,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:47:59,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:47:59,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:47:59,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:47:59,178 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:47:59,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:47:59,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:47:59,186 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:47:59,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:47:59,191 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 13:50:27,798 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 13:50:36,049 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 13:50:36,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 13:50:36,102 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 13:50:36,179 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:50:36,179 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:50:36,179 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:50:36,179 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 13:50:47,658 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 13:50:47,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 13:50:47,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 13:50:47,680 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 13:50:47,684 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 13:50:53,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 13:50:53,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 13:50:54,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 13:50:54,242 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 13:50:54,246 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 13:50:54,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 13:50:54,486 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 13:50:54,488 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 13:50:54,491 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 13:50:54,493 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 13:50:54,496 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 13:50:54,500 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 13:50:54,503 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 14:56:23,122 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 14:56:30,467 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 14:56:30,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 14:56:30,489 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 14:56:30,539 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 14:56:30,539 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 14:56:30,539 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 14:56:30,539 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 14:56:40,485 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 14:56:40,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 14:56:40,509 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 14:56:40,510 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 14:56:40,512 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 14:56:45,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 14:56:45,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 14:56:45,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 14:56:45,860 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 14:56:45,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 14:56:45,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 14:56:45,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 14:56:45,948 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 14:56:45,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 14:56:45,953 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 14:56:45,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 14:56:45,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 14:56:45,958 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-06 14:59:57,030 [8    ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:00:04,424 [26   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:00:18,857 [27   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:01:18,481 [27   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:01:43,800 [25   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:06:34,706 [30   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:08:03,166 [32   ] lers.Filters.AbpExceptionFilterAttribute - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Joos.Api.Controllers.AccountController.<Authenticate>d__14.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2016-02-06 15:11:11,819 [56   ] lers.Filters.AbpExceptionFilterAttribute - System.ArgumentNullException: Value cannot be null.
+Parameter name: userName
+   at Microsoft.AspNet.Identity.UserManager`2.FindByNameAsync(String userName)
+   at Castle.Proxies.UserManagerProxy.FindByNameAsync_callback(String userName)
+   at Castle.Proxies.Invocations.UserManager`2_FindByNameAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserManagerProxy.FindByNameAsync(String userName)
+   at Abp.Authorization.Users.AbpUserManager`3.<CheckDuplicateUsernameOrEmailAddressAsync>d__74.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserManager`3.<CreateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.AccountController.<facebookLogin>d__21.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 251
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.AccountController.<ExternalLogin>d__19.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+System.ArgumentNullException: Value cannot be null.
+Parameter name: userName
+   at Microsoft.AspNet.Identity.UserManager`2.FindByNameAsync(String userName)
+   at Castle.Proxies.UserManagerProxy.FindByNameAsync_callback(String userName)
+   at Castle.Proxies.Invocations.UserManager`2_FindByNameAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserManagerProxy.FindByNameAsync(String userName)
+   at Abp.Authorization.Users.AbpUserManager`3.<CheckDuplicateUsernameOrEmailAddressAsync>d__74.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserManager`3.<CreateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.AccountController.<facebookLogin>d__21.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 251
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Joos.Api.Controllers.AccountController.<ExternalLogin>d__19.MoveNext() in C:\joos\Joos.WebApi\Api\Controllers\AccountController.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-02-06 15:14:48,536 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 15:15:03,974 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 15:15:03,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:15:03,998 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 15:15:04,042 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:15:04,042 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:15:04,042 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:15:04,042 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:15:15,402 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 15:15:15,418 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 15:15:15,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 15:15:15,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 15:15:15,427 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 15:15:21,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 15:15:21,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 15:15:22,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 15:15:22,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 15:15:22,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 15:15:22,446 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 15:15:22,530 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 15:15:22,532 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 15:15:22,535 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 15:15:22,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 15:15:22,543 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 15:15:22,546 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 15:15:22,547 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-06 15:21:37,651 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-06 15:21:44,451 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-06 15:21:44,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,465 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-06 15:21:44,479 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-06 15:21:44,679 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:21:44,679 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:21:44,679 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:21:44,679 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-06 15:21:56,223 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-06 15:21:56,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-06 15:21:56,257 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-06 15:21:56,263 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-06 15:21:56,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-06 15:22:02,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-02-06 15:22:02,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-06 15:22:02,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-06 15:22:02,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-06 15:22:02,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-06 15:22:02,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-06 15:22:02,840 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-06 15:22:02,843 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-06 15:22:02,846 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-06 15:22:02,849 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-06 15:22:02,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-06 15:22:02,857 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-06 15:22:02,861 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.

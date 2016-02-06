@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Joos.JoosCore;
 using Abp.Domain.Repositories;
 using Joos.JoosApp.Dto;
 using Joos.Users;
+using System.Data.Entity;
+using System.Threading.Tasks;
+using AutoMapper;
 
 namespace Joos.JoosApp
 {
@@ -22,6 +22,21 @@ namespace Joos.JoosApp
         {
             _userManager = userManager;
             _questionsRepository = questionsRepository;
+        }
+
+        public async Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageSize)
+        {
+            var query = _questionsRepository.GetAll();
+
+            var skip = pageIndex * pageSize;
+
+            query = query.OrderByDescending(q => q.CreationTime);
+
+            query = query.Skip(skip).Take(pageSize);
+
+            var lis = await query.ToListAsync();
+
+            return lis.Select(question => Mapper.Map<QuestionInput>(question));
         }
 
         public bool Insert(QuestionInput question)

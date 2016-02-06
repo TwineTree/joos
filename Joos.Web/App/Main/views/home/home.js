@@ -6,9 +6,10 @@
             vm.userName = 'rishabh';
             vm.func = function () {
                 abp.ajax({
-                    url: '/api/questions/Add'
+                    url: '/api/questions/Get',
+                    method: 'GET'
                 }).done(function (data) {
-                    abp.notify.success('juice');
+                    abp.notify.success(JSON.stringify(data));
                 });
             }
         }
