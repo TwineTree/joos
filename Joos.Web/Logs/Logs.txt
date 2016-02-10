@@ -13792,3 +13792,853 @@ DEBUG 2016-02-09 22:55:49,418 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2016-02-09 22:55:49,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
 DEBUG 2016-02-09 22:55:49,425 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
 DEBUG 2016-02-09 22:55:49,428 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-10 13:03:23,548 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:03:29,059 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:03:29,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:03:29,072 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:03:29,111 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:03:29,111 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:03:29,111 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:03:29,111 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:03:36,961 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-10 13:03:36,975 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-10 13:03:36,976 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-10 13:03:36,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-10 13:03:36,979 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-10 13:03:41,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-10 13:03:41,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-10 13:03:42,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-10 13:03:42,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-10 13:03:42,206 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-10 13:03:42,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-10 13:03:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-10 13:03:42,388 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-10 13:03:42,390 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-10 13:03:42,392 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-10 13:03:42,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-10 13:03:42,398 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-10 13:03:42,401 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-10 13:03:42,404 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-10 13:03:42,406 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-10 13:07:19,961 [61   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:07:23,448 [61   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:07:23,453 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,456 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,456 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,456 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,456 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,456 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,457 [61   ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:07:23,464 [61   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:07:23,503 [61   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:07:23,503 [61   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:07:23,503 [61   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:07:23,503 [61   ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:07:58,471 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:08:03,869 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:08:03,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:08:03,903 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:08:03,980 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:08:03,981 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:08:03,981 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:08:03,981 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:08:09,791 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-10 13:08:09,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-10 13:08:09,815 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-10 13:08:09,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-10 13:08:09,819 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-10 13:08:12,459 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-10 13:08:12,459 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-10 13:08:12,926 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-10 13:08:12,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-10 13:08:12,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-10 13:08:12,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-10 13:08:12,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-10 13:08:13,060 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-10 13:08:13,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-10 13:08:13,066 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-10 13:08:13,069 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-10 13:08:13,072 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-10 13:08:13,075 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-10 13:08:13,079 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-10 13:08:13,082 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+DEBUG 2016-02-10 13:09:48,057 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:09:52,662 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:09:52,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:09:52,700 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:09:52,771 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:09:52,771 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:09:52,771 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:09:52,771 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:09:58,979 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-10 13:09:58,995 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-10 13:09:58,996 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-10 13:09:58,998 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-10 13:09:59,000 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-10 13:10:01,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-10 13:10:01,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-10 13:10:02,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-10 13:10:02,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-10 13:10:02,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-10 13:10:02,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-10 13:10:02,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-10 13:10:02,235 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-10 13:10:02,238 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-10 13:10:02,240 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-10 13:10:02,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-10 13:10:02,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-10 13:10:02,248 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-10 13:10:02,253 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-10 13:10:02,255 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-10 13:10:42,607 [11   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:10:46,223 [8    ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:10:48,384 [19   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-02-10 13:16:06,849 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:16:10,370 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:16:10,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,388 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,388 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,388 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:16:10,403 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:16:10,478 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:16:10,478 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:16:10,478 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:16:10,478 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:16:15,767 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-10 13:16:15,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-10 13:16:15,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-10 13:16:15,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-10 13:16:15,788 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-10 13:16:18,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-10 13:16:18,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-10 13:16:19,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-10 13:16:19,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-10 13:16:19,046 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-10 13:16:19,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-10 13:16:19,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-10 13:16:19,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-10 13:16:19,177 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-10 13:16:19,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-10 13:16:19,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-10 13:16:19,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-10 13:16:19,190 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-10 13:16:19,193 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-10 13:16:19,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
+ERROR 2016-02-10 13:16:36,487 [13   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:16:43,333 [29   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:16:45,662 [30   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:16:47,080 [28   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:16:47,136 [19   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:23:44,572 [23   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:23:45,984 [40   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:23:46,509 [17   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:24:20,942 [50   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:24:22,243 [36   ] Web.Mvc.Controllers.AbpScriptsController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(CultureInfo culture, Boolean includeDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetAllStrings(Boolean includeDefaults)
+   at Abp.Web.Localization.LocalizationScriptManager.BuildAll(CultureInfo cultureInfo)
+   at Abp.Web.Localization.LocalizationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:24:22,582 [48   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_layout_header_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\layout\header.cshtml:line 34
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2016-02-10 13:24:22,630 [50   ] Web.Mvc.Controllers.AbpAppViewController - System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+System.ApplicationException: Default language is not defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Web.Mvc.Views.AbpWebViewPage`1.L(String name)
+   at ASP._Page_App_Main_views_home_home_cshtml.Execute() in c:\joos\Joos.Web\App\Main\views\home\home.cshtml:line 2
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-02-10 13:26:52,882 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-02-10 13:26:59,240 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-02-10 13:26:59,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.8.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosApplicationModule, Joos.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosCoreModule, Joos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.JoosDataModule, Joos.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Web.JoosWebModule, Joos.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Joos.Api.JoosWebApiModule, Joos.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-02-10 13:26:59,332 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-02-10 13:26:59,394 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:26:59,394 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:26:59,394 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:26:59,394 [1    ] o.Configuration.LanguageManagementConfig - Converted Joos (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-02-10 13:27:08,566 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-02-10 13:27:08,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-02-10 13:27:08,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-02-10 13:27:08,605 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-02-10 13:27:08,606 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Joos
+DEBUG 2016-02-10 13:27:14,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 6 classes defines auto mapping attributes
+DEBUG 2016-02-10 13:27:14,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-02-10 13:27:14,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-02-10 13:27:14,747 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-02-10 13:27:14,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.VoteInput
+DEBUG 2016-02-10 13:27:14,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.JoosApp.Dto.QuestionInput
+DEBUG 2016-02-10 13:27:14,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Joos.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-02-10 13:27:14,923 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-02-10 13:27:14,926 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-02-10 13:27:14,929 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-02-10 13:27:14,931 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-02-10 13:27:14,935 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IVoteService' with service name 'app/vote'.
+DEBUG 2016-02-10 13:27:14,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.JoosApp.IQuestionService' with service name 'app/question'.
+DEBUG 2016-02-10 13:27:14,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IFacebookService' with service name 'app/facebook'.
+DEBUG 2016-02-10 13:27:14,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Joos.ExternalServices.IGoogleService' with service name 'app/google'.
