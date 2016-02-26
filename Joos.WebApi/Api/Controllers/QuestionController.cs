@@ -41,9 +41,9 @@ namespace Joos.Api.Controllers
 
         // /api/Questions/Get
         [HttpGet]
-        public async Task<AjaxResponse> Get (int pageIndex = 0, int pageSize = 10)
+        public async Task<AjaxResponse> Get (int pageIndex = 0, int pageSize = 10, int id=-1)
         {
-            var result = await _questionsService.GetQuestions(pageIndex, pageSize);
+            var result = await _questionsService.GetQuestions(pageIndex, pageSize, id);
             return new AjaxResponse(result);
         }
     }

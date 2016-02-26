@@ -31,28 +31,41 @@ namespace Joos.JoosApp
             _questionsRepository = questionsRepository;
         }
 
-        public async Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageSize)
+        public async Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageSize, int id)
         {
             return await _cacheManager
                 .GetCache(QUESTION_TAG)
-                .GetAsync(QUESTION_TAG, () => GetFromDatabase(pageIndex, pageSize))
+                .GetAsync(QUESTION_TAG, () => GetFromDatabase(pageIndex, pageSize, id))
                 as IEnumerable<QuestionInput>;
 
         }
 
-        private async Task<IEnumerable<QuestionInput>> GetFromDatabase(int pageIndex, int pageSize)
+        private async Task<IEnumerable<QuestionInput>> GetFromDatabase(int pageIndex, int pageSize, int id)
         {
-            var query = _questionsRepository.GetAll();
+            try
+            {
+                var query = _questionsRepository.GetAll();
 
-            var skip = pageIndex * pageSize;
+                if (id != -1)
+                {
+                    query = query.Where(q => q.CreatorUserId.Value.Equals(id));
+                }
 
-            query = query.OrderByDescending(q => q.CreationTime);
+                var skip = pageIndex * pageSize;
 
-            query = query.Skip(skip).Take(pageSize);
+                query = query.OrderByDescending(q => q.CreationTime);
 
-            var lis = await query.ToListAsync();
+                query = query.Skip(skip).Take(pageSize);
 
-            return lis.Select(question => Mapper.Map<QuestionInput>(question));
+                var lis = await query.ToListAsync();
+
+                return lis.Select(question => Mapper.Map<QuestionInput>(question));
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+            
         }
 
         public bool Insert(QuestionInput question)

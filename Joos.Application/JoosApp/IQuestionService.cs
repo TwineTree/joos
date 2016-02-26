@@ -14,6 +14,6 @@ namespace Joos.JoosApp
     {
         bool Insert(QuestionInput questions);
 
-        Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageCount);
+        Task<IEnumerable<QuestionInput>> GetQuestions(int pageIndex, int pageCount, int id);
     }
 }
